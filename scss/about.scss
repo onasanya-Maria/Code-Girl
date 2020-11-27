@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+
+  .hero {
+    background: linear-gradient(
+        to bottom,
+        rgba(138, 0, 0, 0),
+        rgba(105, 18, 18, 0.23) 56%,
+        #501f1f66
+      ),
+      url(https://static.hiretechladies.com/ssr/our-story/images/hero-0ddf4f7.jpg);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vw * 0.53);
+    max-height: 600px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      align-items: center;
+      color: #fff;
+      display: flex;
+      font-size: calc(0.09 * 100vw);
+      font-style: italic;
+      justify-content: center;
+      line-height: 1;
+      text-align: center;
+      font-family: "Oleo Script", cursive;
+    }
+  }
+}
+.about {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__header {
+    display: flex;
+    align-items: center;
+    margin: 2rem auto;
+    width: 100%;
+    h1 {
+      margin: 0 1rem;
+    }
+    hr {
+      border-top: 2px solid #f0667f;
+      flex: 1;
+      width: 100%;
+    }
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1rem;
+    padding: 0rem 2rem 1rem;
+    max-width: 800px;
+    line-height: 1.5;
+  }
+  button {
+    background-color: #f0667f;
+    color: white !important;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    // font-size: 1rem;
+    // font-weight: 700;
+  }
+}
+.main__offer {
+  margin-bottom: 2rem;
+  .offer__header {
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .offer {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+
+    &__container {
+      margin: 1rem 1.5rem 2rem;
+      text-align: center;
+
+      h4 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+.offer__images {
+  object-fit: contain;
+  width: 40px;
+}
