@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(138, 0, 0, 0)), color-stop(56%, rgba(105, 18, 18, 0.23)), to(#501f1f66)), url();
+  background: linear-gradient(to bottom, rgba(138, 0, 0, 0), rgba(105, 18, 18, 0.23) 56%, #501f1f66), url();
+  background-position: center;
+  background-size: cover;
+  height: calc(100vw * 0.53);
+  max-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .hero h1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: calc(0.09 * 100vw);
+  font-style: italic;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1;
+  text-align: center;
+  font-family: "Oleo Script", cursive;
+}
+
+.about {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem auto;
+  width: 100%;
+}
+
+.about__header h1 {
+  margin: 0 1rem;
+}
+
+.about__header hr {
+  border-top: 2px solid #f0667f;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+}
+
+.about h1 {
+  font-size: 3rem;
+}
+
+.about p {
+  font-size: 1rem;
+  padding: 0rem 2rem 1rem;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.about button {
+  background-color: #f0667f;
+  color: white !important;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+
+.main__offer {
+  margin-bottom: 2rem;
+}
+
+.main__offer .offer__header {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.main__offer .offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main__offer .offer__container {
+  margin: 1rem 1.5rem 2rem;
+  text-align: center;
+}
+
+.main__offer .offer__container h4 {
+  font-size: 1.2rem;
+}
+
+.main__offer .offer__container .paragraphtag {
+  max-width: 200px;
+}
+
+.offer__images {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 40px;
+}
+/*# sourceMappingURL=about.css.map */
